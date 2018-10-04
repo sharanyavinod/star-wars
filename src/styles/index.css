@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Jedi';
+  font-display: 'optional';
+  src: url('./assets/Starjedi.ttf') format('truetype');
+}
+
+body {
+  color: gold;
+  background: #111;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: 'Jedi', Helvetica, sans-serif;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.search-box {
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background: #111;
+  z-index: 1;
+}
+
+.character-list li {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  border-bottom: 1px solid gold;
+  padding: 20px 0;
+  font-size: 1.2em;
+}
+
+.search-box input {
+  padding: 10px 5px;
+  background: transparent;
+  color: gold;
+  border: 1px solid gold;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.search-box button {
+  padding: 10px;
+  background: gold;
+  box-shadow: none;
+  border: 1px solid gold;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
